@@ -36,7 +36,7 @@ public class junit_les1 {
     public void case1() {
         System.out.println("==========Case 1 =========");
         
-    String BaseUrl = "http://www.mail.az/";
+    String BaseUrl = "http://www.mail.com/";
     driver.get(BaseUrl);
     String Taytl = driver.getTitle();
     String CurUrl = driver.getCurrentUrl();
@@ -55,6 +55,7 @@ public class junit_les1 {
     @Test   
 public void case2(){
      System.out.println("==========Case 2 =========");
+     
 }
 
     
